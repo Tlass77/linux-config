@@ -43,7 +43,7 @@ sudo dnf install texlive-scheme full -y
 sudo dnf install texmaker -y
 echo "TeX installed"
 
-## R and RStudi
+## R and RStudio
 sudo dnf install R -y
 echo "R installed"
 
@@ -51,8 +51,5 @@ echo "R installed"
 python -m ensurepip --upgrade
 python -m pip install pytube
 
-### Remove Firefox
-sudo dnf remove firefox
-echo "Removed Firefox"
 
 
