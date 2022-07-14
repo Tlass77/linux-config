@@ -30,6 +30,7 @@ echo "Ffmpeg installed"
 #Media codecs
 sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
 sudo dnf groupupdate sound-and-video -y
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel -y
 echo "Media codecs installed"
 
 ##LibreWolf
