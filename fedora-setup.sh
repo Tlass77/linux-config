@@ -48,9 +48,9 @@ echo "TeX installed"
 sudo dnf install R -y
 echo "R installed"
 
-## Python setup
+## Pip update
 python -m ensurepip --upgrade
-python -m pip install pytube
+
 
 
 
