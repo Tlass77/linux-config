@@ -1,6 +1,7 @@
 !#/bin/sh
-
-echo "Fedora 36 first time configuration as of July 11 2022"
+echo "~~~~~~~~~~~"
+echo "Fedora 36 first time configuration. Last tested: July 11 2022"
+echo "~~~~~~~~~~~"
 
 # System
 ## Install apps
@@ -51,6 +52,7 @@ echo "R installed"
 ## Pip update
 python -m ensurepip --upgrade
 
+echo "~~~~~~~~~~~ First time config complete ~~~~~~~~~~~"
 
 
 
